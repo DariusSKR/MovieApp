@@ -1,9 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'layer.dart';
-import 'theme.dart';
+import 'home.dart';
 
-void main() => runApp(new MaterialApp(
+void main()  => runApp(new MaterialApp(
+    home:MovieListView(),));
 
-  home: LayerCalculator(),
-));
